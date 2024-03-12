@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import React, { useState } from 'react';
+import { MdDeleteOutline } from "react-icons/md";
 import './App.css';
 
 function App() {
@@ -36,6 +37,11 @@ function App() {
             <div className='todo-list-item'>
               <h3>Task1</h3>
               <p>Description</p>
+            </div>
+            <div>
+              <MdDeleteOutline className='icon'>
+                <BsChecking className='check-icon'></BsChecking>
+              </MdDeleteOutline>
             </div>
           </div>
         </div>
