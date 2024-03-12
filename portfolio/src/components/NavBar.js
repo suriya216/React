@@ -9,6 +9,8 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 export const NavBar = () => {
+    const [activeLink, setActiveLink] = useState('home');
+    
     return(
         <NavBar expand="lg">
             <Container>
