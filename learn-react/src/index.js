@@ -4,7 +4,7 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const myElement = <h1>I Love JSX!</h1>;
+const myElement = <h1>Hello from index.js!</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(myElement);
