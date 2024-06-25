@@ -1,4 +1,4 @@
-function NavBar(){
+function ColorChangingArrow(){
     return(
         <>
             <div className="arrow-container">
@@ -10,4 +10,4 @@ function NavBar(){
     );
 }
 
-export default NavBar;
+export default ColorChangingArrow;
