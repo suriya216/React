@@ -3,3 +3,25 @@ body{
   font-size: 22px;
   font-family: Arial, sans-serif;
 }
+
+.arrow-icon{
+  width: 50px;
+}
+
+.arrow-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: max-content;
+}
+
+.arrow-mark{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
