@@ -1,11 +1,10 @@
-import "./App.css";
-import ColorChangingArrow from "./components/ColorChangingArrow.js";
-
+import './App.css';
+import ColorChanger from './components/ColorChanger.js';
 
 function App() {
   return (
     <>
-      <ColorChangingArrow />
+      <ColorChanger />
     </>
   );
 }

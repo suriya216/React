@@ -5,22 +5,47 @@ body{
 }
 
 .arrow-icon{
-  width: 50px;
+  width: 52px;
 }
 
 .arrow-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: max-content;
+  width: 50%;
 }
 
 .arrow-mark{
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: fit-content;
+}
+
+.revarrow-icon {
+  width: 52px;
+}
+
+.revarrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+
+.revarrow-mark {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.arrow{
+  display: flex;
+  flex-direction: row;
 }
