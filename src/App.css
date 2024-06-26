@@ -14,7 +14,6 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 50%;
 }
 
 .arrow-mark{
@@ -22,6 +21,7 @@ body{
   flex: 1;
   justify-content: flex-start;
   align-items: center;
+  width: fit-content;
   height: fit-content;
 }
 
@@ -35,7 +35,6 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 50%;
 }
 
 .revarrow-mark {
@@ -45,7 +44,32 @@ body{
   align-items: center;
 }
 
-.arrow{
-  display: flex;
-  flex-direction: row;
+.arrow-container,
+.revarrow-container {
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.arrow-container-enter, 
+.revarrow-container-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.arrow-container-enter-active, 
+.revarrow-container-enter-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.arrow-container-exit, 
+.revarrow-container-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.arrow-container-exit-active, 
+.revarrow-container-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
 }
