@@ -5,7 +5,7 @@ function ColorChanger() {
   const [isArrowVisible, setIsArrowVisible] = useState(true);
 
   useEffect(() => {
-    document.body.style.backgroundColor = isArrowVisible ? '#FFFFFF' : '#8E44AD';
+    document.body.style.backgroundColor = isArrowVisible ? '#FFFFFF' : '#000000';
   }, [isArrowVisible]);
 
   const handleToggle = () => {
