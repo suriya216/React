@@ -17,13 +17,13 @@ function ColorChanger() {
       {isArrowVisible ? (
         <div className="arrow-container">
           <div className="arrow-mark" >
-            <img src="arrow.svg" alt="arrow-icon" className="arrow-icon" onClick={handleToggle}/>
+            <img src='arrow.svg' alt="arrow-icon" className="arrow-icon" onClick={handleToggle}/>
           </div>
         </div>
       ) : (
         <div className="revarrow-container">
           <div className="revarrow-mark">
-            <img src="revarrow.svg" alt="revarrow-icon" className="revarrow-icon" onClick={handleToggle}/>
+            <img src='revarrow.svg' alt="revarrow-icon" className="revarrow-icon" onClick={handleToggle}/>
           </div>
         </div>
       )}
