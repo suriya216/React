@@ -7,6 +7,9 @@ body{
 .menuContainer{
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  top: 30%;
 }
 
 .arrow-icon{
@@ -84,18 +87,14 @@ body{
   transform: scale(0.9);
 }
 
-.menuContainer{
-  display: flex;
-  background-color: #000000;
-  opacity: 0.2;
-  border-radius: 14px;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 3%;
-}
-
 .menuBar{
   display: flex;
+  flex-direction: row;
+  /* background-color: #000000;
+  opacity: 0.2; */
+  border-radius: 14px;
+  width: 80%;
+  justify-content: space-around;
 }
 
 .homeBar{
