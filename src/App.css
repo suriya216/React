@@ -4,16 +4,24 @@ body{
   font-family: Arial, sans-serif;
 }
 
+.menuContainer{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .arrow-icon{
   width: 52px;
 }
+
 
 .arrow-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: fit-content;
+  position: relative;
+  top: 25vh;
 }
 
 .arrow-mark{
@@ -34,7 +42,9 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: fit-content;
+  position: relative;
+  top: 25vh;
 }
 
 .revarrow-mark {
@@ -47,7 +57,7 @@ body{
 .arrow-container,
 .revarrow-container {
   cursor: pointer;
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out, transform 0.7s ease-in-out;
 }
 
 .arrow-container-enter, 
@@ -72,4 +82,23 @@ body{
 .revarrow-container-exit-active {
   opacity: 0;
   transform: scale(0.9);
+}
+
+.menuContainer{
+  display: flex;
+  background-color: #000000;
+  opacity: 0.2;
+  border-radius: 14px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.menuBar{
+  display: flex;
+}
+
+.homeBar{
+  display: flex;
+  color: #000000;
 }
